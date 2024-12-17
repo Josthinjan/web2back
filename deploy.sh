@@ -17,7 +17,7 @@ php artisan migrate --force
 
 # Ejecutar seeding si es necesario
 echo "Ejecutando seeders..."
-php artisan db:seed --force
+php artisan db:seed --class=RolesAndPermissionsSeeder
 
 # Cachear configuraciones
 echo "Cacheando configuraciones..."
