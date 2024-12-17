@@ -2,7 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\LoginController;
-use App\Http\Controllers\usuarioController;
+use App\Http\Controllers\UsuarioController;
 use App\Http\Controllers\EtiquetaController;
 use App\Http\Controllers\ProveedorController;
 use App\Http\Controllers\ProductoController;
