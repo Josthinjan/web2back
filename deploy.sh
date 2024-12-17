@@ -31,3 +31,6 @@ php artisan route:cache
 echo "Listando rutas..."
 php artisan route:list
 
+php artisan serve --host=0.0.0.0 --port=10000
+
+
