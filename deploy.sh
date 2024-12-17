@@ -31,6 +31,3 @@ php artisan route:cache
 echo "Listando rutas..."
 php artisan route:list
 
-# Iniciar el servidor de Laravel en el puerto 80
-echo "Iniciando el servidor..."
-php artisan serve --host=0.0.0.0 --port=80
